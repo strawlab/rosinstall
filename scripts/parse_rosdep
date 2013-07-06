@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+"""
+parse_rosdep - convert output of 'rosdep generate_bash' into a single line
+               suitable for apt-get install
+
+Note: this was developed and tested with rosdep from ROS Electric.
+"""
+import sys, re, yaml
+
+if 1:
+    res = r'\{\{\{(.*?)\}\}\}.*?'
+    bash_re = re.compile(res,flags=re.DOTALL)
+
+    packages = []
+    buf = sys.stdin.read()
+    res = bash_re.findall( buf )
+    for r in res:
+        lines = r.split('\n')
+        for line in lines:
+            ps = '#Packages '
+            if line.startswith(ps):
+                ys = line[ len(ps): ]
+                ys2 = yaml.load(ys)
+                packages.extend( ys2 )
+    print ' '.join(packages)

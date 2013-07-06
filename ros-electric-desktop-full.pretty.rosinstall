@@ -1,0 +1,91 @@
+- tar: {local-name: ros, uri: 'https://code.ros.org/svn/release/download/stacks/ros/ros-1.6.9/ros-1.6.9.tar.bz2',
+    version: ros-1.6.9}
+- tar: {local-name: ros_comm, uri: 'https://code.ros.org/svn/release/download/stacks/ros_comm/ros_comm-1.6.7/ros_comm-1.6.7.tar.bz2',
+    version: ros_comm-1.6.7}
+- tar: {local-name: common_rosdeps, uri: 'https://code.ros.org/svn/release/download/stacks/common_rosdeps/common_rosdeps-1.0.2/common_rosdeps-1.0.2.tar.bz2',
+    version: common_rosdeps-1.0.2}
+- tar: {local-name: bond_core, uri: 'https://code.ros.org/svn/release/download/stacks/bond_core/bond_core-1.6.1/bond_core-1.6.1.tar.bz2',
+    version: bond_core-1.6.1}
+- tar: {local-name: common_msgs, uri: 'https://code.ros.org/svn/release/download/stacks/common_msgs/common_msgs-1.6.0/common_msgs-1.6.0.tar.bz2',
+    version: common_msgs-1.6.0}
+- tar: {local-name: common, uri: 'https://code.ros.org/svn/release/download/stacks/common/common-1.6.1/common-1.6.1.tar.bz2',
+    version: common-1.6.1}
+- tar: {local-name: diagnostics, uri: 'https://code.ros.org/svn/release/download/stacks/diagnostics/diagnostics-1.6.4/diagnostics-1.6.4.tar.bz2',
+    version: diagnostics-1.6.4}
+- tar: {local-name: driver_common, uri: 'https://code.ros.org/svn/release/download/stacks/driver_common/driver_common-1.2.4/driver_common-1.2.4.tar.bz2',
+    version: driver_common-1.2.4}
+- tar: {local-name: eigen, uri: 'https://code.ros.org/svn/release/download/stacks/eigen/eigen-1.6.0/eigen-1.6.0.tar.bz2',
+    version: eigen-1.6.0}
+- tar: {local-name: filters, uri: 'https://code.ros.org/svn/release/download/stacks/filters/filters-1.6.0/filters-1.6.0.tar.bz2',
+    version: filters-1.6.0}
+- tar: {local-name: bullet, uri: 'https://code.ros.org/svn/release/download/stacks/bullet/bullet-2.76.5/bullet-2.76.5.tar.bz2',
+    version: bullet-2.76.5}
+- tar: {local-name: geometry, uri: 'https://code.ros.org/svn/release/download/stacks/geometry/geometry-1.6.1/geometry-1.6.1.tar.bz2',
+    version: geometry-1.6.1}
+- tar: {local-name: nodelet_core, uri: 'https://code.ros.org/svn/release/download/stacks/nodelet_core/nodelet_core-1.6.2/nodelet_core-1.6.2.tar.bz2',
+    version: nodelet_core-1.6.2}
+- tar: {local-name: orocos_kinematics_dynamics, uri: 'https://code.ros.org/svn/release/download/stacks/orocos_kinematics_dynamics/orocos_kinematics_dynamics-0.2.3/orocos_kinematics_dynamics-0.2.3.tar.bz2',
+    version: orocos_kinematics_dynamics-0.2.3}
+- tar: {local-name: pluginlib, uri: 'https://code.ros.org/svn/release/download/stacks/pluginlib/pluginlib-1.6.0/pluginlib-1.6.0.tar.bz2',
+    version: pluginlib-1.6.0}
+- tar: {local-name: assimp, uri: 'https://code.ros.org/svn/release/download/stacks/assimp/assimp-0.1.1/assimp-0.1.1.tar.bz2',
+    version: assimp-0.1.1}
+- tar: {local-name: robot_model, uri: 'https://code.ros.org/svn/release/download/stacks/robot_model/robot_model-1.6.4/robot_model-1.6.4.tar.bz2',
+    version: robot_model-1.6.4}
+- tar: {local-name: executive_smach, uri: 'https://code.ros.org/svn/release/download/stacks/executive_smach/executive_smach-1.0.4/executive_smach-1.0.4.tar.bz2',
+    version: executive_smach-1.0.4}
+- tar: {local-name: xacro, uri: 'https://code.ros.org/svn/release/download/stacks/xacro/xacro-1.6.0/xacro-1.6.0.tar.bz2',
+    version: xacro-1.6.0}
+- tar: {local-name: simulator_stage, uri: 'https://code.ros.org/svn/release/download/stacks/simulator_stage/simulator_stage-1.4.0/simulator_stage-1.4.0.tar.bz2',
+    version: simulator_stage-1.4.0}
+- tar: {local-name: simulator_gazebo, uri: 'https://code.ros.org/svn/release/download/stacks/simulator_gazebo/simulator_gazebo-1.4.15/simulator_gazebo-1.4.15.tar.bz2',
+    version: simulator_gazebo-1.4.15}
+- tar: {local-name: stage, uri: 'https://code.ros.org/svn/release/download/stacks/stage/stage-1.4.1/stage-1.4.1.tar.bz2',
+    version: stage-1.4.1}
+- tar: {local-name: physics_ode, uri: 'https://code.ros.org/svn/release/download/stacks/physics_ode/physics_ode-1.6.1/physics_ode-1.6.1.tar.bz2',
+    version: physics_ode-1.6.1}
+- tar: {local-name: visualization_common, uri: 'https://code.ros.org/svn/release/download/stacks/visualization_common/visualization_common-1.6.3/visualization_common-1.6.3.tar.bz2',
+    version: visualization_common-1.6.3}
+- tar: {local-name: rx, uri: 'https://code.ros.org/svn/release/download/stacks/rx/rx-1.6.1/rx-1.6.1.tar.bz2',
+    version: rx-1.6.1}
+- tar: {local-name: image_common, uri: 'https://code.ros.org/svn/release/download/stacks/image_common/image_common-1.6.1/image_common-1.6.1.tar.bz2',
+    version: image_common-1.6.1}
+- tar: {local-name: perception_pcl, uri: 'https://code.ros.org/svn/release/download/stacks/perception_pcl/perception_pcl-1.0.2/perception_pcl-1.0.2.tar.bz2',
+    version: perception_pcl-1.0.2}
+- tar: {local-name: image_transport_plugins, uri: 'https://code.ros.org/svn/release/download/stacks/image_transport_plugins/image_transport_plugins-1.4.2/image_transport_plugins-1.4.2.tar.bz2',
+    version: image_transport_plugins-1.4.2}
+- tar: {local-name: image_pipeline, uri: 'https://code.ros.org/svn/release/download/stacks/image_pipeline/image_pipeline-1.6.4/image_pipeline-1.6.4.tar.bz2',
+    version: image_pipeline-1.6.4}
+- tar: {local-name: laser_pipeline, uri: 'https://code.ros.org/svn/release/download/stacks/laser_pipeline/laser_pipeline-1.2.1/laser_pipeline-1.2.1.tar.bz2',
+    version: laser_pipeline-1.2.1}
+- tar: {local-name: vision_opencv, uri: 'https://code.ros.org/svn/release/download/stacks/vision_opencv/vision_opencv-1.6.13/vision_opencv-1.6.13.tar.bz2',
+    version: vision_opencv-1.6.13}
+- tar: {local-name: navigation, uri: 'https://code.ros.org/svn/release/download/stacks/navigation/navigation-1.6.5/navigation-1.6.5.tar.bz2',
+    version: navigation-1.6.5}
+- tar: {local-name: slam_gmapping, uri: 'https://code.ros.org/svn/release/download/stacks/slam_gmapping/slam_gmapping-1.2.5/slam_gmapping-1.2.5.tar.bz2',
+    version: slam_gmapping-1.2.5}
+- tar: {local-name: visualization, uri: 'https://code.ros.org/svn/release/download/stacks/visualization/visualization-1.6.7/visualization-1.6.7.tar.bz2',
+    version: visualization-1.6.7}
+- tar: {local-name: executive_smach_visualization, uri: 'https://code.ros.org/svn/release/download/stacks/executive_smach_visualization/executive_smach_visualization-1.0.2/executive_smach_visualization-1.0.2.tar.bz2',
+    version: executive_smach_visualization-1.0.2}
+- tar: {local-name: diagnostics_monitors, uri: 'https://code.ros.org/svn/release/download/stacks/diagnostics_monitors/diagnostics_monitors-1.4.3/diagnostics_monitors-1.4.3.tar.bz2',
+    version: diagnostics_monitors-1.4.3}
+- tar: {local-name: geometry_visualization, uri: 'https://code.ros.org/svn/release/download/stacks/geometry_visualization/geometry_visualization-0.1.1/geometry_visualization-0.1.1.tar.bz2',
+    version: geometry_visualization-0.1.1}
+- tar: {local-name: robot_model_visualization, uri: 'https://code.ros.org/svn/release/download/stacks/robot_model_visualization/robot_model_visualization-0.1.2/robot_model_visualization-0.1.2.tar.bz2',
+    version: robot_model_visualization-0.1.2}
+- tar: {local-name: geometry_experimental, uri: 'https://code.ros.org/svn/release/download/stacks/geometry_experimental/geometry_experimental-0.2.2/geometry_experimental-0.2.2.tar.bz2',
+    version: geometry_experimental-0.2.2}
+- tar: {local-name: documentation, uri: 'https://code.ros.org/svn/release/download/stacks/documentation/documentation-1.4.3/documentation-1.4.3.tar.bz2',
+    version: documentation-1.4.3}
+- tar: {local-name: ros_tutorials, uri: 'https://code.ros.org/svn/release/download/stacks/ros_tutorials/ros_tutorials-0.2.6/ros_tutorials-0.2.6.tar.bz2',
+    version: ros_tutorials-0.2.6}
+- tar: {local-name: common_tutorials, uri: 'https://code.ros.org/svn/release/download/stacks/common_tutorials/common_tutorials-0.1.2/common_tutorials-0.1.2.tar.bz2',
+    version: common_tutorials-0.1.2}
+- tar: {local-name: geometry_tutorials, uri: 'https://code.ros.org/svn/release/download/stacks/geometry_tutorials/geometry_tutorials-0.1.3/geometry_tutorials-0.1.3.tar.bz2',
+    version: geometry_tutorials-0.1.3}
+- tar: {local-name: visualization_tutorials, uri: 'https://code.ros.org/svn/release/download/stacks/visualization_tutorials/visualization_tutorials-0.4.0/visualization_tutorials-0.4.0.tar.bz2',
+    version: visualization_tutorials-0.4.0}
+- tar: {local-name: robot_model_tutorials, uri: 'https://code.ros.org/svn/release/download/stacks/robot_model_tutorials/robot_model_tutorials-0.1.2/robot_model_tutorials-0.1.2.tar.bz2',
+    version: robot_model_tutorials-0.1.2}
+

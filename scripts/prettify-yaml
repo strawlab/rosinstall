@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+import yaml
+import sys
+
+if 1:
+    fname = sys.argv[1]
+    buf = open(fname).read()
+    x=yaml.load(buf)
+    print yaml.dump(x)

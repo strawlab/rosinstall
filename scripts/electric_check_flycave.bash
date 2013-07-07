@@ -6,19 +6,19 @@ if [ ! "$FLYCAVE_TARGET" ] ; then export FLYCAVE_TARGET=$HOME/ros-flycave.electr
 
 #ROSINSTALL_POSTFIX is used to select the -git.rosinstall files which use git+ssh transport
 
-rosinstall --nobuild $FLYCAVE_TARGET $ROS_TARGET http://strawlab.org/rosinstall/strawlab-electric-flycave${ROSINSTALL_POSTFIX}.rosinstall
+rosinstall --nobuild $FLYCAVE_TARGET $ROS_TARGET https://raw.github.com/strawlab/rosinstall/master/strawlab-electric-flycave${ROSINSTALL_POSTFIX}.rosinstall
 
 source $FLYCAVE_TARGET/setup.bash
 cd $FLYCAVE_TARGET
 
 # Now that we checked out the source code (with git SSH),
 # use HTTPS in the future. This edits the .rosinstall and .git/config files.
-wget http://strawlab.org/rosinstall/scripts/replace_github_ssh_with_https -O replace_github_ssh_with_https
+wget https://raw.github.com/strawlab/rosinstall/master/scripts/replace_github_ssh_with_https -O replace_github_ssh_with_https
 chmod a+x replace_github_ssh_with_https
 ./replace_github_ssh_with_https
 
 # Now parse our rosdeps and tell ubuntu to install all the packages.
-wget http://strawlab.org/rosinstall/scripts/parse_rosdep -O parse_rosdep
+wget https://raw.github.com/strawlab/rosinstall/master/scripts/parse_rosdep -O parse_rosdep
 chmod a+x parse_rosdep
 
 STACKS="flycave motmot_ros_stack ros_flydra joystick_drivers flyvr strawlab_tethered_experiments strokelitude_ros strawlab_freeflight_experiments browser_joystick"

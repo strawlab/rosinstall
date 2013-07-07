@@ -17,12 +17,12 @@ if [ ! "$ROS_TARGET" ] ; then export ROS_TARGET=$HOME/ros.electric.boost1.46 ; f
 sudo apt-get --yes install python-rosinstall git wget build-essential
 
 # Let rosinstall do its downloading of the various stacks  ---------------------
-rosinstall --nobuild $ROS_TARGET http://strawlab.org/rosinstall/strawlab-electric-desktop-full.rosinstall
+rosinstall --nobuild $ROS_TARGET https://raw.github.com/strawlab/rosinstall/master/strawlab-electric-desktop-full.rosinstall
 
 # Add ROS to the path, get a utility function ----------------------------------
 source $ROS_TARGET/setup.bash
 cd $ROS_TARGET
-wget http://strawlab.org/rosinstall/scripts/parse_rosdep -O parse_rosdep
+wget https://raw.github.com/strawlab/rosinstall/master/scripts/parse_rosdep -O parse_rosdep
 chmod a+x parse_rosdep
 
 # Now, make the rospack package (first step to bootstrapping) ------------------

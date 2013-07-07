@@ -6,6 +6,6 @@ set -e
 
 mkdir -p $HOME
 apt-get install --yes sudo wget
-wget http://strawlab.org/rosinstall/scripts/electric_check_ros.bash -O electric_check_ros.bash
+wget https://raw.github.com/strawlab/rosinstall/master/scripts/electric_check_ros.bash -O electric_check_ros.bash
 chmod a+x electric_check_ros.bash
 ./electric_check_ros.bash

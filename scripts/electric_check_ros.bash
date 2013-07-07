@@ -6,6 +6,10 @@ set -e
 # This script will go from a bare system to a system with a ROS build
 # in the directory specified by $TARGET.
 
+# This script should be fully idempotent : it won't hurt to run it
+# multiple times. If you have edited your .rosinstall file, however,
+# it will overwrite that.
+
 # PREREQUISITES: universe multiverse repositories installed
 
 # VARIABLES -------------------------------------------------------------------

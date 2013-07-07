@@ -13,3 +13,4 @@
 - git: {local-name: rosgobject, uri: 'https://github.com/strawlab/rosgobject.git', version: master}
 - git: {local-name: strokeli2de, uri: 'https://github.com/strawlab/strokeli2de.git', version: master}
 - git: {local-name: browser_joystick, uri: 'https://github.com/strawlab/browser_joystick.git', version: master}
+- git: {local-name: laser_pan_tilt, uri: 'https://github.com/strawlab/laser_pan_tilt.git'}

@@ -21,7 +21,7 @@ chmod a+x replace_github_ssh_with_https
 wget https://raw.github.com/strawlab/rosinstall/master/scripts/parse_rosdep -O parse_rosdep
 chmod a+x parse_rosdep
 
-STACKS="flycave motmot_ros_stack ros_flydra joystick_drivers flyvr strawlab_tethered_experiments strokelitude_ros strawlab_freeflight_experiments browser_joystick"
+STACKS="flycave motmot_ros_stack ros_flydra joystick_drivers flyvr strawlab_tethered_experiments strokelitude_ros strawlab_freeflight_experiments browser_joystick camera_model rosgobject rossql"
 
 # Figure out what packages we need to apt-get and install them -----------------
 rosdep generate_bash $STACKS > rosdep.output || true

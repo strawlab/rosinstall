@@ -14,3 +14,4 @@
 - git: {local-name: strokeli2de, uri: 'git@github.com:strawlab/strokeli2de.git', version: master}
 - git: {local-name: browser_joystick, uri: 'git@github.com:strawlab/browser_joystick.git', version: master}
 - git: {local-name: laser_pan_tilt, uri: 'git@github.com:strawlab/laser_pan_tilt.git'}
+- git: {local-name: triggerbox, uri: 'git@github.com:strawlab/triggerbox.git'}

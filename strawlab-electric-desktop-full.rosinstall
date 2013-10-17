@@ -48,8 +48,7 @@
 - git: {local-name: perception_pcl, uri: 'https://github.com/strawlab/perception_pcl.git', version: strawlab-electric}
 - tar: {local-name: image_transport_plugins, uri: 'https://code.ros.org/svn/release/download/stacks/image_transport_plugins/image_transport_plugins-1.4.2/image_transport_plugins-1.4.2.tar.bz2',
     version: image_transport_plugins-1.4.2}
-- tar: {local-name: image_pipeline, uri: 'https://code.ros.org/svn/release/download/stacks/image_pipeline/image_pipeline-1.6.4/image_pipeline-1.6.4.tar.bz2',
-    version: image_pipeline-1.6.4}
+- git: {local-name: image_pipeline, uri: 'https://github.com/strawlab/image_pipeline.git', version: strawlab-electric}
 - tar: {local-name: laser_pipeline, uri: 'https://code.ros.org/svn/release/download/stacks/laser_pipeline/laser_pipeline-1.2.1/laser_pipeline-1.2.1.tar.bz2',
     version: laser_pipeline-1.2.1}
 - git: {local-name: vision_opencv, uri: 'https://github.com/strawlab/vision_opencv.git', version: strawlab-electric}

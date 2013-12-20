@@ -29,8 +29,7 @@
     version: pluginlib-1.6.0}
 - tar: {local-name: assimp, uri: 'https://code.ros.org/svn/release/download/stacks/assimp/assimp-0.1.1/assimp-0.1.1.tar.bz2',
     version: assimp-0.1.1}
-- tar: {local-name: robot_model, uri: 'https://code.ros.org/svn/release/download/stacks/robot_model/robot_model-1.6.4/robot_model-1.6.4.tar.bz2',
-    version: robot_model-1.6.4}
+- git: {local-name: robot_model, version: strawlab-electric, uri: 'https://github.com/strawlab/ros_robot_model.git'}
 - tar: {local-name: executive_smach, uri: 'https://code.ros.org/svn/release/download/stacks/executive_smach/executive_smach-1.0.4/executive_smach-1.0.4.tar.bz2',
     version: executive_smach-1.0.4}
 - tar: {local-name: xacro, uri: 'https://code.ros.org/svn/release/download/stacks/xacro/xacro-1.6.0/xacro-1.6.0.tar.bz2',

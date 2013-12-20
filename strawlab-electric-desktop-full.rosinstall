@@ -2,8 +2,7 @@
 - git: {local-name: ros_comm, uri: 'https://github.com/strawlab/ros_comm.git',
     version: strawlab-electric}
 - git: {local-name: common_rosdeps, uri: 'https://github.com/strawlab/common_rosdeps.git', version: strawlab-electric}
-- tar: {local-name: rx, uri: 'https://code.ros.org/svn/release/download/stacks/rx/rx-1.6.1/rx-1.6.1.tar.bz2',
-    version: rx-1.6.1}
+- git: {local-name: rx, uri: 'https://github.com/strawlab/rx.git', version: strawlab-electric}
 - tar: {local-name: documentation, uri: 'https://code.ros.org/svn/release/download/stacks/documentation/documentation-1.4.3/documentation-1.4.3.tar.bz2',
     version: documentation-1.4.3}
 - tar: {local-name: bond_core, uri: 'https://code.ros.org/svn/release/download/stacks/bond_core/bond_core-1.6.1/bond_core-1.6.1.tar.bz2',

@@ -45,8 +45,7 @@
 - git: {local-name: physics_ode, uri: 'https://github.com/strawlab/physics_ode.git', version: strawlab-electric}
 - tar: {local-name: visualization_common, uri: 'https://code.ros.org/svn/release/download/stacks/visualization_common/visualization_common-1.6.3/visualization_common-1.6.3.tar.bz2',
     version: visualization_common-1.6.3}
-- tar: {local-name: rx, uri: 'https://code.ros.org/svn/release/download/stacks/rx/rx-1.6.1/rx-1.6.1.tar.bz2',
-    version: rx-1.6.1}
+- git: {local-name: rx, uri: 'https://github.com/strawlab/rx.git', version: strawlab-electric}
 - tar: {local-name: image_common, uri: 'https://code.ros.org/svn/release/download/stacks/image_common/image_common-1.6.1/image_common-1.6.1.tar.bz2',
     version: image_common-1.6.1}
 - tar: {local-name: perception_pcl, uri: 'https://code.ros.org/svn/release/download/stacks/perception_pcl/perception_pcl-1.0.2/perception_pcl-1.0.2.tar.bz2',

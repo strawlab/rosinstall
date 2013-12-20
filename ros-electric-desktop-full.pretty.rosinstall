@@ -42,8 +42,7 @@
     version: simulator_gazebo-1.4.15}
 - tar: {local-name: stage, uri: 'https://code.ros.org/svn/release/download/stacks/stage/stage-1.4.1/stage-1.4.1.tar.bz2',
     version: stage-1.4.1}
-- tar: {local-name: physics_ode, uri: 'https://code.ros.org/svn/release/download/stacks/physics_ode/physics_ode-1.6.1/physics_ode-1.6.1.tar.bz2',
-    version: physics_ode-1.6.1}
+- git: {local-name: physics_ode, uri: 'https://github.com/strawlab/physics_ode.git', version: strawlab-electric}
 - tar: {local-name: visualization_common, uri: 'https://code.ros.org/svn/release/download/stacks/visualization_common/visualization_common-1.6.3/visualization_common-1.6.3.tar.bz2',
     version: visualization_common-1.6.3}
 - tar: {local-name: rx, uri: 'https://code.ros.org/svn/release/download/stacks/rx/rx-1.6.1/rx-1.6.1.tar.bz2',

@@ -13,7 +13,7 @@ cd $FLYVR_TARGET
 wget https://raw.github.com/strawlab/rosinstall/master/scripts/parse_rosdep -O parse_rosdep
 chmod a+x parse_rosdep
 
-STACKS="joystick_drivers flyvr browser_joystick camera_model rosgobject"
+STACKS="joystick_drivers flyvr browser_joystick rosgobject"
 
 # Figure out what packages we need to apt-get and install them -----------------
 rosdep generate_bash $STACKS > rosdep.output || true

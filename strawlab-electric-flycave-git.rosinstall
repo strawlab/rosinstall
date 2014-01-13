@@ -3,7 +3,6 @@
 - git: {local-name: ros_flydra, uri: 'git@github.com:strawlab/ros_flydra.git'}
 - git: {local-name: joystick_drivers, version: strawlab-electric, uri: 'git@github.com:strawlab/joystick_drivers.git'}
 - git: {local-name: flyvr, version: master, uri: 'git@github.com:strawlab/flyvr.git'}
-- git: {local-name: camera_model, version: master, uri: 'git@github.com:strawlab/camera_model.git'}
 - git: {local-name: strawlab_tethered_experiments, version: master, uri: 'git@github.com:strawlab/strawlab_tethered_experiments.git'}
 - git: {local-name: strawlab_freeflight_experiments, uri: 'git@github.com:strawlab/strawlab_freeflight_experiments.git',
     version: strawlab-electric}

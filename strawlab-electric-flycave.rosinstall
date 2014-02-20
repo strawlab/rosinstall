@@ -14,3 +14,4 @@
 - git: {local-name: browser_joystick, uri: 'https://github.com/strawlab/browser_joystick.git', version: master}
 - git: {local-name: laser_pan_tilt, uri: 'https://github.com/strawlab/laser_pan_tilt.git'}
 - git: {local-name: triggerbox, uri: 'https://github.com/strawlab/triggerbox.git'}
+- git: {local-name: ros_fview_fmf_saver, uri: 'https://github.com/strawlab/ros_fview_fmf_saver.git'}

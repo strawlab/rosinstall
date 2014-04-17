@@ -11,12 +11,6 @@ rosinstall --nobuild $FLYCAVE_TARGET $ROS_TARGET https://raw.github.com/strawlab
 source $FLYCAVE_TARGET/setup.bash
 cd $FLYCAVE_TARGET
 
-# Now that we checked out the source code (with git SSH),
-# use HTTPS in the future. This edits the .rosinstall and .git/config files.
-wget https://raw.github.com/strawlab/rosinstall/master/scripts/replace_github_ssh_with_https -O replace_github_ssh_with_https
-chmod a+x replace_github_ssh_with_https
-./replace_github_ssh_with_https
-
 # Now parse our rosdeps and tell ubuntu to install all the packages.
 wget https://raw.github.com/strawlab/rosinstall/master/scripts/parse_rosdep -O parse_rosdep
 chmod a+x parse_rosdep

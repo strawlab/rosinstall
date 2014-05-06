@@ -4,7 +4,9 @@ set -e
 if [ ! "$ROS_TARGET" ] ; then export ROS_TARGET=$HOME/ros.electric.boost1.46 ; fi
 if [ ! "$FLYCAVE_TARGET" ] ; then export FLYCAVE_TARGET=$HOME/ros-flycave.electric.boost1.46 ; fi
 
-rosinstall --nobuild $FLYCAVE_TARGET $ROS_TARGET https://raw.github.com/strawlab/rosinstall/master/strawlab-electric-flycave.rosinstall
+#ROSINSTALL_POSTFIX is used to select the -git.rosinstall files which use git+ssh transport
+
+rosinstall --nobuild $FLYCAVE_TARGET $ROS_TARGET https://raw.github.com/strawlab/rosinstall/master/strawlab-electric-flycave${ROSINSTALL_POSTFIX}.rosinstall
 
 source $FLYCAVE_TARGET/setup.bash
 cd $FLYCAVE_TARGET

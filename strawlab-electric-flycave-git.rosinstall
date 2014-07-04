@@ -7,7 +7,7 @@
 - git: {local-name: strawlab_freeflight_experiments, uri: 'git@github.com:strawlab/strawlab_freeflight_experiments.git',
     version: strawlab-electric}
 - git: {local-name: strokelitude_ros, version: master, uri: 'git@github.com:motmot/strokelitude_ros.git'}
-- git: {local-name: flymad, uri: 'git@github.com:strawlab/flymad.git', version: strawlab-electric}
+- git: {local-name: flymad, uri: 'git@github.com:strawlab/flymad.git', version: master}
 - git: {local-name: ros_sql, uri: 'git@github.com:strawlab/ros_sql.git', version: strawlab-electric}
 - git: {local-name: rosgobject, uri: 'git@github.com:strawlab/rosgobject.git', version: master}
 - git: {local-name: strokeli2de, uri: 'git@github.com:strawlab/strokeli2de.git', version: master}

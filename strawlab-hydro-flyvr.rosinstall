@@ -1,0 +1,5 @@
+- git: {local-name: joystick_drivers, version: strawlab-hydro, uri: 'https://github.com/strawlab/joystick_drivers.git'}
+- git: {local-name: flyvr, version: strawlab-hydro, uri: 'https://github.com/strawlab/flyvr.git'}
+- git: {local-name: rosgobject, uri: 'https://github.com/strawlab/rosgobject.git', version: strawlab-hydro}
+- git: {local-name: browser_joystick, uri: 'https://github.com/strawlab/browser_joystick.git', version: strawlab-hydro}
+- git: {local-name: triggerbox, uri: 'https://github.com/strawlab/triggerbox.git', version: strawlab-hydro}

@@ -15,3 +15,4 @@
 - git: {local-name: laser_pan_tilt, uri: 'git@github.com:strawlab/laser_pan_tilt.git'}
 - git: {local-name: triggerbox, uri: 'git@github.com:strawlab/triggerbox.git'}
 - git: {local-name: ros_fview_fmf_saver, uri: 'git@github.com:strawlab/ros_fview_fmf_saver.git'}
+- git: {local-name: environment_monitor, uri: 'git@github.com:strawlab/environment_monitor.git', version: master}

@@ -13,7 +13,7 @@ cd $FLYCAVE_TARGET
 wget https://raw.github.com/strawlab/rosinstall/master/scripts/parse_rosdep -O parse_rosdep
 chmod a+x parse_rosdep
 
-STACKS="flycave motmot_ros_stack ros_flydra joystick_drivers flyvr strawlab_tethered_experiments strokelitude_ros strawlab_freeflight_experiments browser_joystick rosgobject ros_sql"
+STACKS=`python -c "import yaml; print ' '.join([x['git']['local-name'] for x in yaml.safe_load(open('${FLYCAVE_TARGET}/.rosinstall').read()) if x.has_key('git')]);"`
 
 # Figure out what packages we need to apt-get and install them -----------------
 rosdep generate_bash $STACKS > rosdep.output || true

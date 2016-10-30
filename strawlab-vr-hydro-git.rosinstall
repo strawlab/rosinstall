@@ -5,7 +5,7 @@
 - git: {local-name: flyvr, version: master, uri: 'https://github.com/strawlab/flyvr.git'}
 - git: {local-name: strawlab_tethered_experiments, version: master, uri: 'git@github.com:strawlab/strawlab_tethered_experiments.git'}
 - git: {local-name: strawlab_freeflight_experiments, uri: 'git@github.com:strawlab/strawlab_freeflight_experiments.git',
-    version: strawlab-electric}
+    version: master}
 - git: {local-name: strokelitude_ros, version: master, uri: 'https://github.com/motmot/strokelitude_ros.git'}
 - git: {local-name: flymad, uri: 'https://github.com/strawlab/flymad.git', version: master}
 - git: {local-name: ros_sql, uri: 'https://github.com/strawlab/ros_sql.git', version: strawlab-electric}

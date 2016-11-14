@@ -1,0 +1,17 @@
+- git: {local-name: flycave, uri: 'git@github.com:strawlab/flycave.git'}
+- git: {local-name: motmot_ros_stack, uri: 'https://github.com/motmot/motmot_ros_stack.git'}
+- git: {local-name: ros_flydra, uri: 'https://github.com/strawlab/ros_flydra.git'}
+- git: {local-name: joystick_drivers, version: strawlab-electric, uri: 'https://github.com/strawlab/joystick_drivers.git'}
+- git: {local-name: flyvr, version: master, uri: 'https://github.com/strawlab/flyvr.git'}
+- git: {local-name: strawlab_tethered_experiments, version: master, uri: 'git@github.com:strawlab/strawlab_tethered_experiments.git'}
+- git: {local-name: strawlab_freeflight_experiments, uri: 'git@github.com:strawlab/strawlab_freeflight_experiments.git',
+    version: master}
+- git: {local-name: strokelitude_ros, version: master, uri: 'https://github.com/motmot/strokelitude_ros.git'}
+- git: {local-name: flymad, uri: 'https://github.com/strawlab/flymad.git', version: master}
+- git: {local-name: ros_sql, uri: 'https://github.com/strawlab/ros_sql.git', version: strawlab-electric}
+- git: {local-name: rosgobject, uri: 'https://github.com/strawlab/rosgobject.git', version: master}
+- git: {local-name: browser_joystick, uri: 'https://github.com/strawlab/browser_joystick.git', version: master}
+- git: {local-name: laser_pan_tilt, uri: 'https://github.com/strawlab/laser_pan_tilt.git'}
+- git: {local-name: triggerbox, uri: 'https://github.com/strawlab/triggerbox.git'}
+- git: {local-name: ros_fview_fmf_saver, uri: 'https://github.com/strawlab/ros_fview_fmf_saver.git'}
+- git: {local-name: environment_monitor, uri: 'https://github.com/strawlab/environment_monitor.git', version: master}

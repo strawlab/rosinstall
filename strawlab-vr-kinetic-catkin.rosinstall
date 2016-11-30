@@ -1,2 +1,3 @@
 - git: {local-name: ros_flydra, uri: 'https://github.com/strawlab/ros_flydra.git', version: kinetic}
 - git: {local-name: triggerbox, uri: 'https://github.com/strawlab/triggerbox.git', version: kinetic}
+- git: {local-name: freemoovr, uri: 'https://github.com/freemoovr/freemoovr.git', version: kinetic}
